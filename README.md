@@ -121,3 +121,10 @@ Tailwind’s grid utilities (grid-cols-1 md:grid-cols-2 lg:grid-cols-3) ensure s
 npm run build
 npm start
 ```
+
+## Author
+Developed by: @jeyymss
+
+Deployed on: [Vercel](https://vercel.com/)
+
+Repository: [Ad-Campaign-Dashboard](https://github.com/jeyymss/Ad-Campaign-Dashboard/)
