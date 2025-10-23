@@ -36,4 +36,4 @@ The goal of this task is to demonstrate the ability to:
 
 ## Live Demo
 
-([https://](https://ad-campaign-dashboard-project.vercel.app/)
+([https://ad-campaign-dashboard-project.vercel.app/])
