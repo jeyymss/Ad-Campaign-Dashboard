@@ -41,6 +41,59 @@ The goal of this task is to demonstrate the ability to:
 ## Installation & Setup
 
 1. Clone this repository
-#!/bin/bash
+
+```bash
 git clone https://github.com/jeyymss/Ad-Campaign-Dashboard.git
 cd Ad-Campaign-Dashboard
+```
+
+2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Then open ([http://localhost:3000])
+
+## Project Structure
+
+```php
+Ad-Campaign-Dashboard/
+ ├── app/
+ │   ├── page.tsx           # Main dashboard page
+ │   └── layout.tsx         # Root layout and theme setup
+ ├── components/
+ │   ├── ui/                # shadcn/ui base components
+ │   ├── PostsGrid.tsx      # Grid component displaying fetched posts
+ │   ├── SearchBar.tsx      # Search input with icon
+ │   └── LoadingSpinner.tsx # Loader for async states
+ ├── lib/
+ │   └── utils.ts           # Helper utilities
+ └── public/                # Static assets
+```
+
+## Implementation Highlights
+API Integration:
+Uses fetch() to retrieve post data from (JSONPlaceholder[https://jsonplaceholder.typicode.com/posts]).
+
+Search & Filter:
+Controlled input filters posts by title, body, or ID using string matching.
+
+UI Components:
+Built using Card, Badge, and Dialog from shadcn/ui with Tailwind utility classes.
+
+State Management:
+Uses React’s useState and useEffect hooks — simple and effective.
+
+Responsive Layout:
+Tailwind’s grid utilities (grid-cols-1 md:grid-cols-2 lg:grid-cols-3) ensure smooth scaling.
