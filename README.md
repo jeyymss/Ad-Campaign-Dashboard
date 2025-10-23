@@ -4,24 +4,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 A simple, responsive dashboard built as part of a technical hiring test, designed to fetch and display campaign data from a public API using modern frontend technologies.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
 ## Objective
 
 The goal of this task is to demonstrate the ability to:
@@ -37,3 +19,13 @@ The goal of this task is to demonstrate the ability to:
 ## Live Demo
 
 ([https://ad-campaign-dashboard-project.vercel.app/])
+
+## Tech Stack
+
+| Category   | Technology                                                         |
+| ---------- | ------------------------------------------------------------------ |
+| Framework  | **Next.js 14 (React + TypeScript)**                                |
+| Styling    | **Tailwind CSS** & **shadcn/ui**                                   |
+| API Source | **JSONPlaceholder** (`https://jsonplaceholder.typicode.com/posts`) |
+| Deployment | **Vercel**                                                         |
+
