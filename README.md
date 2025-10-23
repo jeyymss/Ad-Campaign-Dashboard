@@ -29,3 +29,18 @@ The goal of this task is to demonstrate the ability to:
 | API Source | **JSONPlaceholder** (`https://jsonplaceholder.typicode.com/posts`) |
 | Deployment | **Vercel**                                                         |
 
+## Features Implemented
+✅ Fetch data from the JSONPlaceholder API
+✅ Display title, body, and userId in responsive cards
+✅ Search posts by title, content, or post ID
+✅ Loading state while fetching data
+✅ No results message when no matches found
+✅ Dialog modal showing full post details on click
+✅ Responsive design for mobile, tablet, and desktop
+
+## Installation & Setup
+
+1. Clone this repository
+#!/bin/bash
+git clone https://github.com/jeyymss/Ad-Campaign-Dashboard.git
+cd Ad-Campaign-Dashboard
