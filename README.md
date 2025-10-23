@@ -30,12 +30,19 @@ The goal of this task is to demonstrate the ability to:
 | Deployment | **Vercel**                                                         |
 
 ## Features Implemented
+
 ✅ Fetch data from the JSONPlaceholder API
+
 ✅ Display title, body, and userId in responsive cards
+
 ✅ Search posts by title, content, or post ID
+
 ✅ Loading state while fetching data
+
 ✅ No results message when no matches found
+
 ✅ Dialog modal showing full post details on click
+
 ✅ Responsive design for mobile, tablet, and desktop
 
 ## Installation & Setup
@@ -97,3 +104,20 @@ Uses React’s useState and useEffect hooks — simple and effective.
 
 Responsive Layout:
 Tailwind’s grid utilities (grid-cols-1 md:grid-cols-2 lg:grid-cols-3) ensure smooth scaling.
+
+## Evaluation Criteria Alignment
+| Criteria                   | Implementation                                  |
+| -------------------------- | ----------------------------------------------- |
+| **API Fetching**           | Uses `fetch()` from `JSONPlaceholder`           |
+| **UI Presentation**        | Responsive grid of cards with hover states      |
+| **Search & Filter**        | Real-time search by title/body/ID               |
+| **Loading & Empty States** | Displayed clearly while fetching or no matches  |
+| **Clean Code**             | Modular, typed components with clear separation |
+| **Deployment**             | Hosted on Vercel for production testing         |
+
+
+## Build & Deploy
+```bash
+npm run build
+npm start
+```
