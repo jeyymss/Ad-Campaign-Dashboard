@@ -18,7 +18,7 @@ The goal of this task is to demonstrate the ability to:
 
 ## Live Demo
 
-([https://ad-campaign-dashboard-project.vercel.app/])
+[Ad Campaign Dashboard](https://ad-campaign-dashboard-project.vercel.app/)
 
 ## Tech Stack
 
