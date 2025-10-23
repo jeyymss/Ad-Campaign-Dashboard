@@ -84,7 +84,7 @@ Ad-Campaign-Dashboard/
 
 ## Implementation Highlights
 API Integration:
-Uses fetch() to retrieve post data from (JSONPlaceholder[https://jsonplaceholder.typicode.com/posts]).
+Uses fetch() to retrieve post data from [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts).
 
 Search & Filter:
 Controlled input filters posts by title, body, or ID using string matching.
