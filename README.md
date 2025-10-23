@@ -123,7 +123,7 @@ npm start
 ```
 
 ## Author
-Developed by: @jeyymss
+Developed by: [@jeyymss](https://github.com/jeyymss)
 
 Deployed on: [Vercel](https://vercel.com/)
 
