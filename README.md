@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 # Technical Test — Ad Campaign Dashboard
 
 A simple, responsive dashboard built as part of a technical hiring test, designed to fetch and display campaign data from a public API using modern frontend technologies.
